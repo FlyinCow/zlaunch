@@ -52,7 +52,9 @@ Available on the AUR as [`zlaunch-bin`](https://aur.archlinux.org/packages/zlaun
 }
 ```
 
-The package is available as `zlaunch.packages.${pkgs.system}.default`.
+The package is available as `zlaunch.packages.${pkgs.system}.default`. A Home
+Manager module is available as `zlaunch.homeManagerModules.default` (for
+details see [Installation Instructions](https://zlaunch.zortax.de/docs/getting-started/installation)).
 
 ### Building from source
 
@@ -60,7 +62,8 @@ The package is available as `zlaunch.packages.${pkgs.system}.default`.
 cargo build --release
 ```
 
-If you have Nix installed, you can use `nix develop` for a preconfigured dev shell with all dependencies.
+If you have Nix installed, you can use `nix develop` for a preconfigured dev
+shell with all dependencies.
 
 ## Quick Start
 
